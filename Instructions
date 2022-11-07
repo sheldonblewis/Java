@@ -1,0 +1,5 @@
+# Parcel-Distribution-Centre-Simulator
+1. Download 4 image files
+2. Replace image path for plane, truck, question mark, in Scanner class
+3. Replace image path for background in ParcelDistributionCentre class
+4. Run through ParcelDistributionCentre.java
