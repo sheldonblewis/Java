@@ -21,10 +21,9 @@ public class Scanner
 		
 		try
 		{
-			//Replace the following files with paths to the downloaded plane.jpg, truck.png, and question.jpg files on your computer
-			this.plane = ImageIO.read(new File(/*"C:\\Users\\lewisv\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\plane.jpg"*/));
-			this.truck = ImageIO.read(new File(/*"C:\\Users\\lewisv\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\truck.png"*/));
-			this.question = ImageIO.read(new File(/*"C:\\Users\\lewisv\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\question.jpg"*/));
+			this.plane = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\plane.jpg"));
+			this.truck = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\truck.png"));
+			this.question = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\question.jpg"));
 		}
 		catch (IOException e)
 		{

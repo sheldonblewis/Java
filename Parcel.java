@@ -57,6 +57,18 @@ public class Parcel
 			int[] Xs1 = {this.getX(), this.getX() + this.getWidth(), this.getX() + this.getLength() + this.getWidth(), this.getX() + this.getLength()};
 			int[] Ys1 = {this.getY(), this.getY() - this.getWidth(), this.getY() - this.getWidth(), this.getY()};
 			g2d.fillPolygon(Xs1, Ys1, 4);
+			if (this.getColor().equals("blue"))
+			{
+				g2d.setColor(Color.BLUE.darker());
+			}
+			else if (this.getColor().equals("green"))
+			{
+				g2d.setColor(Color.GREEN.darker());
+			}
+			else if (this.getColor().equals("yellow"))
+			{
+				g2d.setColor(Color.YELLOW.darker());
+			}
 			int[] Xs2 = {this.getX() + this.getLength(), this.getX() + this.getLength() + this.getWidth(), this.getX() + this.getLength() + this.getWidth(), this.getX() + this.getLength()};
 			int[] Ys2 = {this.getY(), this.getY() - this.getWidth(), this.getY() + this.getHeight() - this.getWidth(), this.getY() + this.getHeight()};
 			g2d.fillPolygon(Xs2, Ys2, 4);
@@ -85,6 +97,18 @@ public class Parcel
 			int[] Xs1 = {this.getX(), this.getX() - this.getWidth(), this.getX() + this.getLength() - this.getWidth(), this.getX() + this.getLength()};
 			int[] Ys1 = {this.getY(), this.getY() - this.getWidth(), this.getY() - this.getWidth(), this.getY()};
 			g2d.fillPolygon(Xs1, Ys1, 4);
+			if (this.getColor().equals("blue"))
+			{
+				g2d.setColor(Color.BLUE.darker());
+			}
+			else if (this.getColor().equals("green"))
+			{
+				g2d.setColor(Color.GREEN.darker());
+			}
+			else if (this.getColor().equals("yellow"))
+			{
+				g2d.setColor(Color.YELLOW.darker());
+			}
 			int[] Xs2 = {this.getX(), this.getX(), this.getX() - this.getWidth(), this.getX() - this.getWidth()};
 			int[] Ys2 = {this.getY(), this.getY() + this.getHeight(), this.getY() + this.getHeight() - this.getWidth(), this.getY() - this.getWidth()};
 			g2d.fillPolygon(Xs2, Ys2, 4);
