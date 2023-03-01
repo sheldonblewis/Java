@@ -38,7 +38,8 @@ public class ParcelDistributionCenter extends JPanel
 		
 		try
 		{
-			this.background = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\background.jpg"));
+			//Replace path with the path to "background.jpg" on your local. Uncomment line 42.
+			//this.background = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\background.jpg"));
 		}
 		catch (IOException e)
 		{
