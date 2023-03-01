@@ -21,9 +21,10 @@ public class Scanner
 		
 		try
 		{
-			this.plane = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\plane.jpg"));
-			this.truck = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\truck.png"));
-			this.question = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\question.jpg"));
+			//Replace paths with the paths to "plane.jpg", "truck.png", and "question.jpg" in your local. Uncomment lines 25-27.
+			//this.plane = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\plane.jpg"));
+			//this.truck = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\truck.png"));
+			//this.question = ImageIO.read(new File("C:\\Users\\shelb\\eclipse-workspace\\Parcel Distribution Center\\src\\ParcelDistributionCenter\\question.jpg"));
 		}
 		catch (IOException e)
 		{
